@@ -4,17 +4,19 @@
 
 ```bash
 # Clone este repositório
-git clone git@github.com:devemdobro/redux-shop-inicial.git
+git clone git@github.com:devemdobro/redux-shop-inicial.git```
 
+```bash
 # Acesse a pasta do projeto no terminal/cmd
-cd redux-shop-inicial
+cd redux-shop-inicial```
 
+```bash
 # Instale as dependências
-npm install
+npm install```
 
+```bash
 # Execute a aplicação
 npm start
-
 ```
 
 ## De onde vem os produtos da listagem?
