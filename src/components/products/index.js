@@ -1,5 +1,4 @@
 import { Product } from "../product";
-import { CartProductsCounter } from "../cart-products-counter";
 
 const Products = ({ products }) => {
   return (
@@ -13,8 +12,6 @@ const Products = ({ products }) => {
           <li>Nenhum produto encontrado</li>
         )}
       </ul>
-
-      {/* <CartProductsCounter /> */}
     </>
   );
 };

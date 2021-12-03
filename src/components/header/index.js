@@ -8,7 +8,7 @@ const Header = () => {
     <Container>
       <Link to="/">
         <h1>Redux Shop</h1>
-      </ Link>
+      </Link>
       <CartProductsCounter />
     </Container>
   );
