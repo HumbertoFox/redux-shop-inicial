@@ -1,22 +1,35 @@
 # Redux shop
 
-Lista de produtos da listagem inicial
+## Como rodar o projeto
+
+```bash
+# Clone este repositório
+$ git clone git@github.com:devemdobro/redux-shop-inicial.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd redux-shop-inicial
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação
+$ npm start
+
+```
+
+## De onde vem os produtos da listagem?
+
+A lista de produtos da listagem inicial vem do json de produtos:
 
 src/json/products.json
 
-## Estados iniciais
-products: [] produtos que vieram do mock
-cartProducts: [] produtos que estão no carrinho
-
-para buscar o total de produtos no carrinh é só fazer um cartProducts.length
-
 ----------------------------
-## Mudanças de estado 
+## Fluxo de mudança do estado
 
 No produto da listagem tem um botão pra adicionar ao carrinho 
 
-quando o usuario clicar em adicionar o produto dispara uma action "ADD_PRODUCT_TO_CART"
+Quando o usuario clicar em adicionar o produto dispara uma action "ADD_PRODUCT_TO_CART"
 
-essa action vai ser dispachada para o reducer que ouve a action, pega todos os produtos atuais no carrinho e adiciona um novo
+Essa action vai ser dispachada para o reducer que ouve a action, pega todos os produtos atuais no carrinho e adiciona um novo
 
-o novo estado é uma lista com o produto adicionado
+O novo estado é uma lista com o produto adicionado, todos os componentes que usam esse estado são atualizados.
