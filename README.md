@@ -2,10 +2,12 @@
 
 ## Como rodar o projeto
 
+Clone o repositório
 ```bash
 git clone git@github.com:devemdobro/redux-shop-inicial.git
 ```
 
+ Acesse a pasta do projeto
 ```bash
 cd redux-shop-inicial
 ```
@@ -15,6 +17,7 @@ Instalar as dependências
 npm install
 ```
 
+Execute a aplicação
 ```bash
 npm start
 ```
