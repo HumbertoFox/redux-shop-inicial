@@ -4,16 +4,16 @@
 
 ```bash
 # Clone este repositório
-$ git clone git@github.com:devemdobro/redux-shop-inicial.git
+git clone git@github.com:devemdobro/redux-shop-inicial.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd redux-shop-inicial
+cd redux-shop-inicial
 
 # Instale as dependências
-$ npm install
+npm install
 
 # Execute a aplicação
-$ npm start
+npm start
 
 ```
 
